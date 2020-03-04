@@ -1,0 +1,26 @@
+.main
+  .main_header
+    .main_header_name 
+      = @information.info_name
+    .main_header_menu
+      .main_header_edit
+        = link_to "編集",edit_information_path(@information.id),class:"Edit-link"
+      .main_header_delete
+        =link_to "削除", information_path(@information.id), method: :delete, class:'delete-link', data: {confirm: "本当に削除しますか？"}
+
+  .main_content
+    .main_content_pass 
+      .main_content_name 
+        = @information.info_name
+      .main_content_email
+        %p＊メールアドレス(ID)
+        = @information.email
+      .main_content_password 
+        %p＊パスワード
+        = @information.password
+      .main_content_phone_number
+        %p＊電話番号
+        = @information.phone_number
+      .main_content_memo
+        %p＊メモ
+        = @information.memo

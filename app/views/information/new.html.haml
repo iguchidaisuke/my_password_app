@@ -1,0 +1,7 @@
+=form_for @information do |f|
+  = f.text_field :info_name, class: "information__input", placeholder: "[必須]作成したアカウントを入力してください  例:Googleアカウント"
+  = f.text_field :email, class: "information__input", placeholder: "[必須]アカウント作成に使用したメールアドレス(ID)を入力してください  例:hoge1234@gmail.com"
+  = f.text_field :password, class: "information__input", placeholder: "[必須]パスワードを入力してください  例:hoge1234"
+  = f.text_field :phone_number, class: "information__input", placeholder: "[任意]電話番号を入力してください  例:090-1234-5678"
+  = f.text_field :memo, class: "information__input", placeholder: "[任意]その他メモしたい項目を入力してください  例:住所など"
+  = f.submit "情報を保存", class: "information__btn"

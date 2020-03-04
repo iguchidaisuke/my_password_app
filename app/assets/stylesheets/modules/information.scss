@@ -1,0 +1,19 @@
+.information{
+  &__input {
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  &__btn {
+    display: inline-block;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #38aef0;
+    border: 0;
+    font-family: arial;
+  }
+}
+
