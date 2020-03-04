@@ -3,8 +3,7 @@
 
 ## MY＿PASSWORD＿APP
 高齢者向けのパスワード管理サイト
-![トップページ]
-(https://user-images.githubusercontent.com/59217782/75863738-51b7ab80-5e44-11ea-8a5f-d252e9b51686.png">)
+![トップページ](https://user-images.githubusercontent.com/59217782/75863738-51b7ab80-5e44-11ea-8a5f-d252e9b51686.png">)
 
 Description
 高齢者向けのパスワード管理サイト。誰でも簡単に登録でき、パスワードを記録しておけるサイトです。
