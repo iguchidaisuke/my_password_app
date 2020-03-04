@@ -3,22 +3,23 @@
 
 ## MY＿PASSWORD＿APP
 高齢者向けのパスワード管理サイト
-(https://user-images.githubusercontent.com/59217782/75863738-51b7ab80-5e44-11ea-8a5f-d252e9b51686.png)
+<img width="1439" alt="トップページ" src="https://user-images.githubusercontent.com/59217782/75864749-d3f49f80-5e45-11ea-909d-8cae2face4e2.png">
 
-Description
+
+## Description
 高齢者向けのパスワード管理サイト。誰でも簡単に登録でき、パスワードを記録しておけるサイトです。
 基本的な登録情報としては、ユーザー名とパスワード情報を登録でき、必要に応じてメールアドレスと電話番号を登録できます。
 前職の経験から「最低限の機能のみ備えたパスワード管理サイトが欲しい」というお声を参考に開発致しました。
 
-Features
+## Features
 ・haml/SASS記法と、命名規則BEMを使ったマークアップ
 ・deviseを用いたユーザー登録機能の実装
 
-Requirement
+## Requirement
 ・Ruby 2.5.1
 ・Rails 5.2.3
 
-Author
+## Author
 @iguchidaisuke
 
 
