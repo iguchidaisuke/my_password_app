@@ -11,7 +11,7 @@
 }
   .main_header{
     height:100px;
-    width:100vw;
+    width:calc(100vw - 300px);
     background-color: rgb(213, 216, 213);
     line-height: 100px;
     display:flex;
